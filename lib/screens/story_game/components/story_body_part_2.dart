@@ -46,12 +46,12 @@ class StoryBodyPart2 extends GetView<StoryController> {
                                 ),
                               ),
                             )
-                          : SizedBox()
+                          : const SizedBox()
                     ],
                   ),
                 ),
               )
-            : SizedBox(),
+            : const SizedBox(),
         // controller.currentStep.value == 6
         //     ? Image.asset(
         //         'assets/images/start_button.png',
@@ -85,7 +85,7 @@ class StoryBodyPart2 extends GetView<StoryController> {
                     width: 345,
                     height: 172.57,
                     child: Image.asset('assets/images/story_text_4.png'))
-                : SizedBox(),
+                : const SizedBox(),
         // Obx(() {
         //   return Positioned(
         //     top: 100,
@@ -123,7 +123,7 @@ class StoryBodyPart2 extends GetView<StoryController> {
                   // fit: BoxFit.cover,
                 ),
               )
-            : SizedBox(),
+            : const SizedBox(),
         controller.getStorageService.currentStep.value == 3 ||
                 controller.getStorageService.currentStep.value == 4 ||
                 controller.getStorageService.currentStep.value == 5
@@ -131,25 +131,25 @@ class StoryBodyPart2 extends GetView<StoryController> {
                 bottom: 36,
                 left: Get.width / 9,
                 child: Container(
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     gradient: LinearGradient(
                       colors: [Color(0xFF7236DA), Color(0xFF07D5FE)],
                     ),
                     // Optional: for rounded corners
                   ),
-                  padding: EdgeInsets.all(2), // Space for the border
+                  padding: const EdgeInsets.all(2), // Space for the border
                   child: Container(
-                    padding: EdgeInsets.symmetric(horizontal: 15),
+                    padding: const EdgeInsets.symmetric(horizontal: 15),
                     width: 317,
                     height: 144.57,
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
+                      gradient: const LinearGradient(
                         colors: [Color(0xFF0C0C28), Color(0xFF1D1D44)],
                       ),
                       boxShadow: [
                         BoxShadow(
                           color: Colors.black.withOpacity(0.25),
-                          offset: Offset(0, 4.14),
+                          offset: const Offset(0, 4.14),
                           blurRadius: 4.14,
                           spreadRadius: 0,
                         ),
@@ -179,7 +179,7 @@ class StoryBodyPart2 extends GetView<StoryController> {
                                             5
                                         ? "I'll help you. Let's lift the curse together."
                                         : "",
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontFamily: 'Alatsi',
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
@@ -189,7 +189,7 @@ class StoryBodyPart2 extends GetView<StoryController> {
                             ),
                           ),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 10,
                         ),
                         controller.getStorageService.currentStep.value == 4
@@ -197,7 +197,7 @@ class StoryBodyPart2 extends GetView<StoryController> {
                                 onTap: () {
                                   controller.onChangeStep();
                                 },
-                                child: Text(
+                                child: const Text(
                                   "How do you cope with being here alone?",
                                   style: TextStyle(
                                     fontFamily: 'Alatsi',
@@ -209,8 +209,8 @@ class StoryBodyPart2 extends GetView<StoryController> {
                                   ),
                                 ),
                               )
-                            : SizedBox(),
-                        SizedBox(
+                            : const SizedBox(),
+                        const SizedBox(
                           height: 10,
                         ),
                         InkWell(
@@ -236,7 +236,7 @@ class StoryBodyPart2 extends GetView<StoryController> {
                                         ? "This is too risky. I need to leave."
                                         : "",
                             textAlign: TextAlign.center,
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontFamily: 'Alatsi',
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
@@ -251,7 +251,7 @@ class StoryBodyPart2 extends GetView<StoryController> {
                   ),
                 ),
               )
-            : SizedBox()
+            : const SizedBox()
       ],
     );
   }

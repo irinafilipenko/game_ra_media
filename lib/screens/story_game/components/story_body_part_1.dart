@@ -59,25 +59,25 @@ class StoryBodyPart1 extends GetView<StoryController> {
           bottom: 36,
           left: 45,
           child: Container(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               gradient: LinearGradient(
                 colors: [Color(0xFF7236DA), Color(0xFF07D5FE)],
               ),
               // Optional: for rounded corners
             ),
-            padding: EdgeInsets.all(2), // Space for the border
+            padding: const EdgeInsets.all(2), // Space for the border
             child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 20),
+              padding: const EdgeInsets.symmetric(horizontal: 20),
               width: 317,
               height: 144.57,
               decoration: BoxDecoration(
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [Color(0xFF0C0C28), Color(0xFF1D1D44)],
                 ),
                 boxShadow: [
                   BoxShadow(
                     color: Colors.black.withOpacity(0.25),
-                    offset: Offset(0, 4.14),
+                    offset: const Offset(0, 4.14),
                     blurRadius: 4.14,
                     spreadRadius: 0,
                   ),
@@ -102,7 +102,7 @@ class StoryBodyPart1 extends GetView<StoryController> {
                                       2
                                   ? "What kind of challenges?"
                                   : "Why are you here alone?",
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontFamily: 'Alatsi',
                         fontSize: 16,
                         fontWeight: FontWeight.w400,
@@ -111,7 +111,7 @@ class StoryBodyPart1 extends GetView<StoryController> {
                         decorationColor: Color(0xFF04D9FE),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
                     Text(
@@ -124,7 +124,7 @@ class StoryBodyPart1 extends GetView<StoryController> {
                                       3
                                   ? "Show me the scroll."
                                   : "What happened to the town?",
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontFamily: 'Alatsi',
                         fontSize: 16,
                         fontWeight: FontWeight.w400,
@@ -133,7 +133,7 @@ class StoryBodyPart1 extends GetView<StoryController> {
                         decorationColor: Color(0xFF04D9FE),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
                     Text(
@@ -146,7 +146,7 @@ class StoryBodyPart1 extends GetView<StoryController> {
                                       2
                                   ? "How can I help you?"
                                   : "How can the curse be lifted?",
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontFamily: 'Alatsi',
                         fontSize: 16,
                         fontWeight: FontWeight.w400,

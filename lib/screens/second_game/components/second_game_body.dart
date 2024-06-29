@@ -310,7 +310,7 @@ class SecondGameBody extends GetView<SecondGameController> {
                   child: Stack(
                     clipBehavior: Clip.none,
                     children: [
-                      Container(
+                      const SizedBox(
                         width: 360,
                         height: 394,
                       ),

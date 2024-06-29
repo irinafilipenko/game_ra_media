@@ -283,7 +283,7 @@ class StartGameBody extends GetView<StartGameController> {
                   child: Stack(
                     clipBehavior: Clip.none,
                     children: [
-                      Container(
+                      const SizedBox(
                         width: 360,
                         height: 394,
                       ),

@@ -8,6 +8,6 @@ class StoryController extends GetxController {
   onChangeStep() {
     getStorageService.currentStep.value += 1;
     // print("Hello");
-    print(getStorageService.currentStep.value);
+    // print(getStorageService.currentStep.value);
   }
 }
