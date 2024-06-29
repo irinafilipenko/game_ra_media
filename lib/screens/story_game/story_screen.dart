@@ -18,7 +18,7 @@ class StoryScreen extends GetView<StoryController> {
       body: Obx(
         () {
           return AnimatedSwitcher(
-            duration: Duration(milliseconds: 300), // Длительность анимации
+            duration: Duration(milliseconds: 300),
             transitionBuilder: (Widget child, Animation<double> animation) {
               return FadeTransition(opacity: animation, child: child);
             },

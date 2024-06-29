@@ -11,9 +11,9 @@ class StartGameBody extends GetView<StartGameController> {
   @override
   Widget build(BuildContext context) {
     // print("${controller.spinCount}");
-    // Future.delayed(const Duration(milliseconds: 100), () {
-    //   controller.spin(deductPoints: false);
-    // });
+    Future.delayed(const Duration(milliseconds: 100), () {
+      controller.spin(deductPoints: false);
+    });
     return Obx(() {
       return Stack(
         children: [
