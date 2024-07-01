@@ -12,9 +12,9 @@ There is also an opportunity to win a huge super prize of 1,000,000 coins if all
 The game also has a screen for in-game purchases.
 
 [//]: # (![Project]&#40;./assets/images/main_background.png&#41;)
-<img src="./assets/images/screen1.png.png" alt="Project Logo" width="200" />
-<img src="./assets/images/screen2.png.png" alt="Project Logo" width="200" />
-<img src="./assets/images/screen3.png.png" alt="Project Logo" width="200" />
-<img src="./assets/images/screen4.png.png" alt="Project Logo" width="200" />
-<img src="./assets/images/screen5.png.png" alt="Project Logo" width="200" />
-<img src="./assets/images/screen6.png.png" alt="Project Logo" width="200" />
+<img src="./assets/images/screen1.png" alt="Project Logo" width="200" />
+<img src="./assets/images/screen2.png" alt="Project Logo" width="200" />
+<img src="./assets/images/screen3.png" alt="Project Logo" width="200" />
+<img src="./assets/images/screen4.png" alt="Project Logo" width="200" />
+<img src="./assets/images/screen5.png" alt="Project Logo" width="200" />
+<img src="./assets/images/screen6.png" alt="Project Logo" width="200" />
