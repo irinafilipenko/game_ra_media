@@ -13,12 +13,14 @@ class AppScreen {
     GetPage(
       name: SplashScreen.routeName,
       page: () => const SplashScreen(),
+      transition: Transition.fadeIn, //
       transitionDuration: const Duration(milliseconds: 100),
       binding: Binding(),
     ),
     GetPage(
       name: MainScreen.routeName,
       page: () => const MainScreen(),
+      transition: Transition.fadeIn, //
       transitionDuration: const Duration(milliseconds: 100),
       binding: Binding(),
     ),
