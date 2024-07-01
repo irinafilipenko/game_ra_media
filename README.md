@@ -3,4 +3,4 @@ Game Description: "Cursed City" - An exciting game with casino quests immerses t
 The game features two types of slots with 3x3 and 3x4 grids. They use the standard reel scrolling mechanics, where the win depends on the bet size. There is also an opportunity to win a huge super prize of 1,000,000 coins if all the elements in each line match.
 The game also has a screen for in-game purchases.
 
-![Project Logo](./assets/images/main_background.png)
+![Project](./assets/images/main_background.png)
